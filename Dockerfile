@@ -8,10 +8,9 @@ RUN echo "deb http://download.rethinkdb.com/apt xenial main" > /etc/apt/sources.
 ENV RETHINKDB_PACKAGE_VERSION 2.3.5~0xenial
 
 RUN apt-get update \
-	&& apt-get upgrade \
 	&& apt-get install -y rethinkdb=$RETHINKDB_PACKAGE_VERSION \
 	&& rm -rf /var/lib/apt/lists/* \
-	&& apt-get install -y python-pip \
+	&& apt-get install -y python3-pip \
 	&& pip install rethinkdb
 
 VOLUME ["/data"]
