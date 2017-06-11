@@ -10,7 +10,7 @@ ENV RETHINKDB_PACKAGE_VERSION 2.3.5~0xenial
 RUN apt-get update \
 	&& apt-get install -y rethinkdb=$RETHINKDB_PACKAGE_VERSION \
 	&& rm -rf /var/lib/apt/lists/* \
-	&& apt-get install -y python3-pip \
+	&& apt-get install -y python-pip \
 	&& pip install rethinkdb
 
 VOLUME ["/data"]
