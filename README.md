@@ -5,7 +5,7 @@ This docker is tested and working with the latest version of Unraid. If you woul
 
 ## How to install on Unraid
 Go to: `Settings > General Settings > Enable additional search results from dockerHub? Change to Yes`
-Search: unraid-rethink-python
+Search: rethinkdb-python-forunraid
 
 ## Gain access to bash to run the dump and import commands
 `docker exec -it unraid-rethink-python bash`
