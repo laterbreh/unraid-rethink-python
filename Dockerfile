@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu
 
 # Add the RethinkDB repository and public key
 # "RethinkDB Packaging <packaging@rethinkdb.com>" http://download.rethinkdb.com/apt/pubkey.gpg
