@@ -1,4 +1,4 @@
-# Rethinkdb 2.3.5 with Python Drivers
+# Rethinkdb 2.3.6 with Python Drivers
 This is a docker I created to run on my Unraid server. Other images that I had tried did not have python intstalled which was making it difficult to export/import data. The goal was to be able to use the rethinkdb dump command etc. 
 
 This docker is tested and working with the latest version of Unraid. If you would like to see some changes, please feel free to open a pull request.
